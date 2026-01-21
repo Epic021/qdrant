@@ -1,0 +1,30 @@
+{
+  "patient_hash": "rajesh",
+  "interaction_id": "f0dcc3c9-24f4-4503-874f-7658c0aa2fb6",
+  "processed_text": "Kaan ke paas ek pearly sa dana hai, heal nahi ho raha. Dhoop mein zyada rehte hain.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_basal_04.jpg",
+      "score": 0.462
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\discharge_summary_basal.pdf",
+      "ocr_text": "Medical document for Basal Cell Carcinoma. Patient details and clinical findings.",
+      "ocr_confidence": 90.6
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": true,
+    "timestamp": 1769009083
+  }
+}

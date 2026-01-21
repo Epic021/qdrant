@@ -1,0 +1,33 @@
+{
+  "event_id": "39096006-8c88-4fcc-9079-5859f31fd8da",
+  "interaction_id": "43d5dea3-e85b-4cd3-96a1-fa60538cfe56",
+  "patient_hash": "aaarat",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": []
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T00:34:03.514392"
+}

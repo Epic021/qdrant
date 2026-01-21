@@ -1,0 +1,30 @@
+{
+  "patient_hash": "amit",
+  "interaction_id": "79d472e8-7aed-4fe8-a7c1-2d6e301c2be8",
+  "processed_text": "Shoulders par multiple waxy bumps hain, benign lagte hain. Cosmetic concern hai patient ko.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_seborrheic_03.jpg",
+      "score": 0.688
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\referral_slip_seborrheic.pdf",
+      "ocr_text": "Medical document for Seborrheic Keratosis. Patient details and clinical findings.",
+      "ocr_confidence": 95.2
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": true,
+    "document_unclear": true,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769009083
+  }
+}

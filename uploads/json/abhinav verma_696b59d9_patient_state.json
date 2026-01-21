@@ -1,0 +1,39 @@
+{
+  "event_id": "bf952553-76d8-4939-8885-d99d246edbc7",
+  "interaction_id": "696b59d9-3ac8-46d7-86c9-39df738fff79",
+  "patient_hash": "abhinav verma",
+  "patient_current_state": {
+    "patient_hash": "abhinav verma",
+    "total_visits": 1,
+    "first_visit": 1769019212,
+    "latest_visit": 1769019212,
+    "latest_event_id": "bf952553-76d8-4939-8885-d99d246edbc7",
+    "visit_history": [
+      {
+        "event_id": "bf952553-76d8-4939-8885-d99d246edbc7",
+        "interaction_id": "696b59d9-3ac8-46d7-86c9-39df738fff79",
+        "timestamp": 1769019212,
+        "summary": "headache and pain in the ass",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain",
+      "headache"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 1
+    }
+  },
+  "created_at": "2026-01-21T23:43:52.605705"
+}

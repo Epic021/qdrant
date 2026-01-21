@@ -1,0 +1,28 @@
+{
+  "patient_hash": "patient_yash ",
+  "interaction_id": "398e91f1-78dc-43d1-bff2-9136f06294d4",
+  "processed_text": "Mild pain in the chest and severe headache",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\uploads\\documents\\patient_yash _398e91f1_referral_slip_psoriasis.pdf",
+      "ocr_text": "Apollo Multispeciality Hospital\nPrimary Health Care Center\nPATIENT REFERRAL SLIP\nReferral No:\nREF66377\nDate:\n21-01-2026\nFrom:\nApollo Multispeciality Hospital\nTo:\nCity General Hospital\nPATIENT INFORMATION\nName:\nPriya Sharma\nID:\nPT803589\nAge:\n57 years\nGender:\nMale\nContact:\n+91 7603199528\nAddress:\nVillage A, Block 10\nREASON FOR REFERRAL\nProvisional Diagnosis: Psoriasis Vulgaris (L40.0)\nPresenting Complaints: Red patches with silvery scales, Dry, cracked skin, Itching and burning\nDuration: 3 weeks\nSeverity: Moderate\nSPECIALIST CONSULTATION REQUESTED\nPlease evaluate and manage for suspected Psoriasis Vulgaris.\nReferred to: Dermatologist\nSuggested Tests: Clinical examination, Skin biopsy, Blood tests for inflammation markers\nCLINICAL PHOTOGRAPH (Attached)\nReferring Physician:\nReceiving Physician:\nDr. Suresh Patil\n(To be filled)\nSignature: _______________\nSignature: _______________\nDate: 21-01-2026\nDate: _______________",
+      "ocr_confidence": 95.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769015526
+  }
+}

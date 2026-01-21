@@ -1,0 +1,39 @@
+{
+  "event_id": "b88b3016-8876-433b-90ff-3be79ee7889a",
+  "interaction_id": "a7b8aa5a-b8ed-4a4d-b1db-e6783882d3bc",
+  "patient_hash": "aman sharma",
+  "patient_current_state": {
+    "patient_hash": "aman sharma",
+    "total_visits": 1,
+    "first_visit": 1769020191,
+    "latest_visit": 1769020191,
+    "latest_event_id": "b88b3016-8876-433b-90ff-3be79ee7889a",
+    "visit_history": [
+      {
+        "event_id": "b88b3016-8876-433b-90ff-3be79ee7889a",
+        "interaction_id": "a7b8aa5a-b8ed-4a4d-b1db-e6783882d3bc",
+        "timestamp": 1769020191,
+        "summary": "mild headache and pain in the ass",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": true,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain",
+      "headache"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 1,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T00:00:09.362603"
+}

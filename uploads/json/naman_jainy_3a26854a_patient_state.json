@@ -1,0 +1,36 @@
+{
+  "event_id": "5d3666e5-1a44-40c7-9f7e-4be6d0392a55",
+  "interaction_id": "3a26854a-ccfb-4503-b169-0aedf9c432e1",
+  "patient_hash": "naman_jainy",
+  "patient_current_state": {
+    "patient_hash": "naman_jainy",
+    "total_visits": 1,
+    "first_visit": 1769022706,
+    "latest_visit": 1769022706,
+    "latest_event_id": "5d3666e5-1a44-40c7-9f7e-4be6d0392a55",
+    "visit_history": [
+      {
+        "event_id": "5d3666e5-1a44-40c7-9f7e-4be6d0392a55",
+        "interaction_id": "3a26854a-ccfb-4503-b169-0aedf9c432e1",
+        "timestamp": 1769022706,
+        "summary": "nop",
+        "uncertainty": {
+          "text_sparse": true,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [],
+    "uncertainty_summary": {
+      "text_sparse": 1,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 1
+    }
+  },
+  "created_at": "2026-01-22T00:42:03.231748"
+}

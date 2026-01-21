@@ -1,0 +1,23 @@
+{
+  "patient_hash": "sunita",
+  "interaction_id": "e9ec7f14-c863-4226-a3b4-7524f19984c9",
+  "processed_text": "Chest par brown colored growth hai, wart jaisa dikhta hai. Stuck-on appearance hai.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_seborrheic_05.jpg",
+      "score": 0.574
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": true,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769009083
+  }
+}

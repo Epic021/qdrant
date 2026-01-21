@@ -1,0 +1,40 @@
+{
+  "patient_hash": "priya",
+  "interaction_id": "7a884af8-c9d3-4f56-bab2-960b7bd1952b",
+  "processed_text": "Patient ko chehra par ek chamakdar pink bump hai, jo thik nahi ho raha. 3 mahine se hai, khoon nikalta hai kabhi kabhi.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_basal_05.jpg",
+      "score": 0.545
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\referral_slip_basal.pdf",
+      "ocr_text": "Medical document for Basal Cell Carcinoma. Patient details and clinical findings.",
+      "ocr_confidence": 90.8
+    },
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\lab_report_basal.pdf",
+      "ocr_text": "Medical document for Basal Cell Carcinoma. Patient details and clinical findings.",
+      "ocr_confidence": 94.2
+    },
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\discharge_summary_basal.pdf",
+      "ocr_text": "Medical document for Basal Cell Carcinoma. Patient details and clinical findings.",
+      "ocr_confidence": 93.7
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": true,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": true,
+    "timestamp": 1769009083
+  }
+}

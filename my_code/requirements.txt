@@ -1,0 +1,42 @@
+# Field Ingestion Agent - Requirements
+# ====================================
+
+# Core
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Audio Processing (Whisper)
+# openai-whisper>=20231117  # Uncomment if using audio transcription
+
+# OCR
+# pytesseract>=0.3.10  # Uncomment if using OCR (requires Tesseract installation)
+
+# PDF Processing
+# PyMuPDF>=1.23.0  # Uncomment for PDF text extraction
+
+# Database
+# SQLite is built-in to Python
+
+# Optional: for type hints
+pydantic>=2.0.0
+
+# Patient Memory Agent - Requirements
+# ====================================
+
+# Vector Database
+qdrant-client>=1.7.0
+python-dotenv>=1.0.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Audio Embeddings (CLAP)
+# laion-clap>=1.1.0  # Uncomment if using audio embeddings (optional)

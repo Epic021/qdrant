@@ -1,0 +1,28 @@
+{
+  "patient_hash": "kartik_sharma",
+  "interaction_id": "c1c194f4-7fb3-4017-a377-c9071957c27f",
+  "processed_text": "Mild headache and pain in the lower abdomen",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\uploads\\documents\\kartik_sharma_c1c194f4_discharge_summary_basal.pdf",
+      "ocr_text": "Fortis Healthcare Center\nDepartment of Dermatology\nDISCHARGE SUMMARY\nPatient Name:\nAnita Gupta\nPatient ID:\nPT697056\nAge/Gender:\n34 / Female\nWard/Bed:\nDerma-4/B8\nDate of Admission:\n09-01-2026\nDate of Discharge:\n21-01-2026\nAttending Physician:\nDr. Kavitha Krishnan\nConsultant:\nDr. Kavitha Krishnan\nFINAL DIAGNOSIS\nPrimary: Basal Cell Carcinoma (C44.91)\nSecondary: Associated pruritus\nCLINICAL SUMMARY\nPatient presented with pearly or waxy bump, flat, flesh-colored lesion. On examination, findings were\nconsistent with Basal Cell Carcinoma. Investigations including skin biopsy, dermoscopy confirmed the\ndiagnosis.\nTREATMENT ADMINISTERED DURING HOSPITAL STAY\n1. Surgical excision\n2. Mohs surgery\n3. Cryotherapy\nCONDITION AT DISCHARGE\nPatient is clinically stable with moderate improvement in symptoms. No active complications at the time of\ndischarge.\nDISCHARGE MEDICATIONS\nMedication\nDosage\nDuration\nTab. Cetirizine 10mg\nOnce daily\n2 weeks\nMohs surgery\nAs directed\n2 weeks\nMoisturizing lotion\nApply twice daily\nContinuous\nFOLLOW-UP INSTRUCTIONS\n• Follow-up appointment: 3 months from discharge date\n• Continue prescribed medications as directed\n• Maintain skin hygiene and avoid known irritants\n• Report immediately if symptoms worsen or new symptoms develop\nPrepared by:\nApproved by:\n_______________\n_______________\nDr. Kavitha Krishnan\nMedical Superintendent\nDate: 21-01-2026\nDate: 21-01-2026",
+      "ocr_confidence": 95.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769016898
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "event_id": "bf952553-76d8-4939-8885-d99d246edbc7",
+  "interaction_id": "696b59d9-3ac8-46d7-86c9-39df738fff79",
+  "patient_hash": "abhinav verma",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": [
+        "pain",
+        "headache"
+      ]
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-21T23:43:54.116523"
+}

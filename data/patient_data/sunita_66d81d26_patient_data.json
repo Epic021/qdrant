@@ -1,0 +1,38 @@
+{
+  "patient_hash": "sunita",
+  "interaction_id": "66d81d26-c6b3-447e-aab3-235fbbb92dcf",
+  "processed_text": "Patient Ravi, 28 saal male, Rampur village. Skin mein laal daayian, khujli bahut, 2 hafte se. Eczema jaise dikhta hai, photo li hai.",
+  "audio_transcript": "ki jistaranim ki pede ki aayu anne vrakshou ki apeksa lambi hoti hai usitre aad bhi druga yuhu",
+  "audio_language": "hi",
+  "audio_confidence": 0.801,
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_eczema_03.jpg",
+      "score": 0.406
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\discharge_summary_eczema.pdf",
+      "ocr_text": "Medical document for Eczema. Patient details and clinical findings.",
+      "ocr_confidence": 96.4
+    },
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\lab_report_eczema.pdf",
+      "ocr_text": "Medical document for Eczema. Patient details and clinical findings.",
+      "ocr_confidence": 90.6
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": true,
+    "image_unclear": false,
+    "document_unclear": true,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769009083
+  }
+}

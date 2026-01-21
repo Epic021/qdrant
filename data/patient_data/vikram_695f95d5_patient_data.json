@@ -1,0 +1,33 @@
+{
+  "patient_hash": "vikram",
+  "interaction_id": "695f95d5-a198-4138-97c6-d6f8d39ccfb9",
+  "processed_text": "Naak par ek shiny bump hai, dheere dheere badh raha hai. Towel se ponchne par khoon aata hai.",
+  "audio_transcript": "dermatology consultation ke liye refer karna padega patient ko",
+  "audio_language": "hi",
+  "audio_confidence": 0.772,
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_basal_02.jpg",
+      "score": 0.583
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\lab_report_basal.pdf",
+      "ocr_text": "Medical document for Basal Cell Carcinoma. Patient details and clinical findings.",
+      "ocr_confidence": 97.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": true,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769009083
+  }
+}

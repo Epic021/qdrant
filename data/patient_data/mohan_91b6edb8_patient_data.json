@@ -1,0 +1,23 @@
+{
+  "patient_hash": "mohan",
+  "interaction_id": "91b6edb8-6944-441b-906e-6edb1c94417b",
+  "processed_text": "Scalp par silver color ke patches hain, bahut khujli. Sardi mein zyada problem hoti hai.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_psoriasis_05.jpg",
+      "score": 0.665
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769009083
+  }
+}

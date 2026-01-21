@@ -1,0 +1,28 @@
+{
+  "patient_hash": "omkar",
+  "interaction_id": "755eb013-9fde-46c3-8878-bb0d7aec38cc",
+  "processed_text": "heavy concussions in the stomach and pain in the heart",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\uploads\\documents\\omkar_755eb013_skin_psoriasis_01.jpg",
+      "ocr_text": "",
+      "ocr_confidence": 0.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": true,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769018981
+  }
+}

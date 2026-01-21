@@ -1,0 +1,30 @@
+{
+  "patient_hash": "case",
+  "interaction_id": "d44b9f3c-6d3a-4522-afb9-f06a665d1f13",
+  "processed_text": "Haath mein bahut khujli, skin dry aur cracked hai. Sabun lagane se aur bura hota hai.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_eczema_04.jpg",
+      "score": 0.452
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\lab_report_eczema.pdf",
+      "ocr_text": "Medical document for Eczema. Patient details and clinical findings.",
+      "ocr_confidence": 90.2
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": true,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": true,
+    "timestamp": 1769009083
+  }
+}

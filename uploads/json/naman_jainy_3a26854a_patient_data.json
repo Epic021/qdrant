@@ -1,0 +1,22 @@
+{
+  "patient_hash": "naman_jainy",
+  "interaction_id": "3a26854a-ccfb-4503-b169-0aedf9c432e1",
+  "processed_text": "nop",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769022706
+  }
+}

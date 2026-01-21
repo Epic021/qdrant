@@ -1,0 +1,40 @@
+{
+  "patient_hash": "anita",
+  "interaction_id": "c47be49f-fa6e-4682-aa36-a7e58a206d90",
+  "processed_text": "Til ka rang badal raha hai, pehle se bada ho gaya. Border irregular hai, specialist dikhana chahiye.",
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_melanoma_03.jpg",
+      "score": 0.328
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\referral_slip_melanoma.pdf",
+      "ocr_text": "Medical document for Melanoma. Patient details and clinical findings.",
+      "ocr_confidence": 93.3
+    },
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\discharge_summary_melanoma.pdf",
+      "ocr_text": "Medical document for Melanoma. Patient details and clinical findings.",
+      "ocr_confidence": 97.1
+    },
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\lab_report_melanoma.pdf",
+      "ocr_text": "Medical document for Melanoma. Patient details and clinical findings.",
+      "ocr_confidence": 97.8
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": true,
+    "timestamp": 1769009083
+  }
+}

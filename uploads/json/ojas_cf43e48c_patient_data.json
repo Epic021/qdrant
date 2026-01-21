@@ -1,0 +1,28 @@
+{
+  "patient_hash": "ojas",
+  "interaction_id": "cf43e48c-00c8-42c7-9959-30a8c5f3785d",
+  "processed_text": "about to die",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\uploads\\documents\\ojas_cf43e48c_discharge_summary_psoriasis.pdf",
+      "ocr_text": "Fortis Healthcare Center\nDepartment of Dermatology\nDISCHARGE SUMMARY\nPatient Name:\nLakshmi Iyer\nPatient ID:\nPT817965\nAge/Gender:\n58 / Female\nWard/Bed:\nDerma-1/B2\nDate of Admission:\n09-01-2026\nDate of Discharge:\n21-01-2026\nAttending Physician:\nDr. Kavitha Krishnan\nConsultant:\nDr. Raj Malhotra\nFINAL DIAGNOSIS\nPrimary: Psoriasis Vulgaris (L40.0)\nSecondary: Mild secondary infection\nCLINICAL SUMMARY\nPatient presented with red patches with silvery scales, dry, cracked skin. On examination, findings were\nconsistent with Psoriasis Vulgaris. Investigations including clinical examination, skin biopsy confirmed the\ndiagnosis.\nTREATMENT ADMINISTERED DURING HOSPITAL STAY\n1. Topical corticosteroids\n2. Vitamin D analogues\n3. Phototherapy\nCONDITION AT DISCHARGE\nPatient is clinically stable with moderate improvement in symptoms. No active complications at the time of\ndischarge.\nDISCHARGE MEDICATIONS\nMedication\nDosage\nDuration\nTab. Levocetirizine 5mg\nOnce daily\n2 weeks\nVitamin D analogues\nAs directed\n2 weeks\nMoisturizing lotion\nApply twice daily\nContinuous\nFOLLOW-UP INSTRUCTIONS\n• Follow-up appointment: 6-8 weeks from discharge date\n• Continue prescribed medications as directed\n• Maintain skin hygiene and avoid known irritants\n• Report immediately if symptoms worsen or new symptoms develop\nPrepared by:\nApproved by:\n_______________\n_______________\nDr. Kavitha Krishnan\nMedical Superintendent\nDate: 21-01-2026\nDate: 21-01-2026",
+      "ocr_confidence": 95.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": false,
+    "timestamp": 1769021870
+  }
+}

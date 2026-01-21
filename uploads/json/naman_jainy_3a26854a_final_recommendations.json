@@ -1,0 +1,44 @@
+{
+  "interaction_id": "3a26854a-ccfb-4503-b169-0aedf9c432e1",
+  "patient_hash": "naman_jainy",
+  "case_summary": {
+    "patient_snapshot": {
+      "age": null,
+      "gender": null,
+      "pregnancy_status": "unknown",
+      "program": null
+    },
+    "key_signals": [
+      "First visit for this patient"
+    ],
+    "data_quality": {
+      "image_unclear": false,
+      "audio_noisy": false,
+      "text_sparse": true,
+      "history_partial": true
+    },
+    "retrieval_summary": {
+      "similar_cases_found": 3,
+      "geography": "same_block",
+      "program_match": false,
+      "dense_candidates": 3,
+      "final_selected": 3
+    },
+    "outcome_pattern": {
+      "total_cases": 3,
+      "outcomes": {
+        "unknown": 3
+      }
+    }
+  },
+  "explanation": "We found 3 similar cases that match this patient's initial visit. However, data for this patient is limited due to sparse text and partial patient history. For all 3 of those similar cases, the outcomes are currently unknown. Therefore, specific outcome patterns or trends are difficult to determine with the currently available information.",
+  "followup_status": {
+    "followup_status": "up_to_date",
+    "days_since_last_visit": 0,
+    "nudges": [
+      "Incomplete records - consider verifying patient history"
+    ],
+    "escalation_flag": false
+  },
+  "created_at": "2026-01-22T00:42:15.515354"
+}

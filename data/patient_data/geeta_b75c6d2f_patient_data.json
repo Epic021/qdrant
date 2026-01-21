@@ -1,0 +1,33 @@
+{
+  "patient_hash": "geeta",
+  "interaction_id": "b75c6d2f-555a-4231-9529-71c90103ea94",
+  "processed_text": "Kohni aur ghutno par thick plaques hain, silver scale ke saath. Joint mein bhi dard hai.",
+  "audio_transcript": "patient ki skin condition dekhi gayi aur treatment suggest kiya gaya hai",
+  "audio_language": "hi",
+  "audio_confidence": 0.707,
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\images\\skin_psoriasis_01.jpg",
+      "score": 0.308
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\data\\docs\\discharge_summary_psoriasis.pdf",
+      "ocr_text": "Medical document for Psoriasis. Patient details and clinical findings.",
+      "ocr_confidence": 95.5
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": true,
+    "audio_noisy": false,
+    "image_unclear": true,
+    "document_unclear": true,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device",
+    "offline": true,
+    "timestamp": 1769009083
+  }
+}

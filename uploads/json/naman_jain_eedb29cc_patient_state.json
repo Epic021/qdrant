@@ -1,0 +1,51 @@
+{
+  "event_id": "2bbe5481-41c3-4f59-997e-a42a1a05a9a5",
+  "interaction_id": "eedb29cc-3a52-40cb-b507-0aa50c880a35",
+  "patient_hash": "naman_jain",
+  "patient_current_state": {
+    "patient_hash": "naman_jain",
+    "total_visits": 2,
+    "first_visit": 1769017430,
+    "latest_visit": 1769017680,
+    "latest_event_id": "2bbe5481-41c3-4f59-997e-a42a1a05a9a5",
+    "visit_history": [
+      {
+        "event_id": "654ddf20-0308-411a-9540-cecb47efd0e2",
+        "interaction_id": "6bc433a4-568b-412e-a40d-46fdb8e87020",
+        "timestamp": 1769017430,
+        "summary": "Anger causing irritation in the skin",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "2bbe5481-41c3-4f59-997e-a42a1a05a9a5",
+        "interaction_id": "eedb29cc-3a52-40cb-b507-0aa50c880a35",
+        "timestamp": 1769017680,
+        "summary": "Anger causing irritation in the skin and lower leg. Last visit medicine didn't work.",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [
+      "skin"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 1
+    }
+  },
+  "created_at": "2026-01-21T23:18:06.515184"
+}

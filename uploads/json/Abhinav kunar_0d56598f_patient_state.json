@@ -1,0 +1,39 @@
+{
+  "event_id": "b9d68790-4f1d-4861-ad1e-926ae8a83ead",
+  "interaction_id": "0d56598f-d13e-4f2c-a128-4ffb11e1c7e1",
+  "patient_hash": "Abhinav kunar",
+  "patient_current_state": {
+    "patient_hash": "Abhinav kunar",
+    "total_visits": 1,
+    "first_visit": 1769020447,
+    "latest_visit": 1769020447,
+    "latest_event_id": "b9d68790-4f1d-4861-ad1e-926ae8a83ead",
+    "visit_history": [
+      {
+        "event_id": "b9d68790-4f1d-4861-ad1e-926ae8a83ead",
+        "interaction_id": "0d56598f-d13e-4f2c-a128-4ffb11e1c7e1",
+        "timestamp": 1769020447,
+        "summary": "Mild pain in the lower right calf and skin disease along with a pain in the ass",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": true,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain",
+      "skin"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 1,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T00:04:32.068655"
+}

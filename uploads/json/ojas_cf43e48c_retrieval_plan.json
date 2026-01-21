@@ -1,0 +1,33 @@
+{
+  "event_id": "7a339225-7c8c-48d8-b425-70935686bcc6",
+  "interaction_id": "cf43e48c-00c8-42c7-9959-30a8c5f3785d",
+  "patient_hash": "ojas",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": []
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T00:28:05.961487"
+}

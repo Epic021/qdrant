@@ -1,0 +1,36 @@
+{
+  "event_id": "b88b3016-8876-433b-90ff-3be79ee7889a",
+  "interaction_id": "a7b8aa5a-b8ed-4a4d-b1db-e6783882d3bc",
+  "patient_hash": "aman sharma",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": [
+        "pain",
+        "headache"
+      ]
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T00:00:10.894052"
+}

@@ -1,0 +1,36 @@
+{
+  "event_id": "7a339225-7c8c-48d8-b425-70935686bcc6",
+  "interaction_id": "cf43e48c-00c8-42c7-9959-30a8c5f3785d",
+  "patient_hash": "ojas",
+  "patient_current_state": {
+    "patient_hash": "ojas",
+    "total_visits": 1,
+    "first_visit": 1769021870,
+    "latest_visit": 1769021870,
+    "latest_event_id": "7a339225-7c8c-48d8-b425-70935686bcc6",
+    "visit_history": [
+      {
+        "event_id": "7a339225-7c8c-48d8-b425-70935686bcc6",
+        "interaction_id": "cf43e48c-00c8-42c7-9959-30a8c5f3785d",
+        "timestamp": 1769021870,
+        "summary": "about to die",
+        "uncertainty": {
+          "text_sparse": true,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [],
+    "uncertainty_summary": {
+      "text_sparse": 1,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T00:28:04.447501"
+}

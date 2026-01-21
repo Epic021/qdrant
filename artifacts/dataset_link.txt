@@ -1,0 +1,3 @@
+Dataset: Skin diseases image dataset
+Author: ISMAIL HOSSAIN
+link: https://www.kaggle.com/datasets/ismailpromus/skin-diseases-image-dataset

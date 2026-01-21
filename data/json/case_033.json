@@ -1,0 +1,33 @@
+{
+  "id": "case_033",
+  "patient_id": "P_6227",
+  "timestamp": "2025-06-20T12:04:56.400642",
+  "demographics": {
+    "age": 51,
+    "gender": "Male",
+    "location": "Vellore_Rural"
+  },
+  "clinical_data": {
+    "chief_complaint": "Dry, cracked skin",
+    "history": "History of asthma/hay fever. Flares with stress or harsh soaps.",
+    "lesion_details": {
+      "location": "Hands",
+      "size_mm": 12.6,
+      "texture": "Crusted",
+      "color": "Pink",
+      "elevation": "Patch",
+      "borders": "Ill-defined",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Eczema",
+  "treatment_plan": [
+    "Topical Steroids",
+    "Emollients",
+    "Antihistamines"
+  ],
+  "outcome": "Routine",
+  "files": {
+    "image_main": "skin_eczema_03.jpg"
+  }
+}

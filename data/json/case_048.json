@@ -1,0 +1,33 @@
+{
+  "id": "case_048",
+  "patient_id": "P_6758",
+  "timestamp": "2025-05-20T12:04:56.403886",
+  "demographics": {
+    "age": 49,
+    "gender": "Male",
+    "location": "Chittoor_Border_Unit"
+  },
+  "clinical_data": {
+    "chief_complaint": "Sore that bleeds easily",
+    "history": "Slow growing over months. Bleeds when towel drying. Sun-exposed area.",
+    "lesion_details": {
+      "location": "Ear",
+      "size_mm": 10.3,
+      "texture": "Central Ulcer",
+      "color": "Translucent",
+      "elevation": "Ulcer",
+      "borders": "Smooth",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Basal Cell Carcinoma",
+  "treatment_plan": [
+    "Mohs Micrographic Surgery",
+    "Excision",
+    "Topical Imiquimod"
+  ],
+  "outcome": "Urgent Referral",
+  "files": {
+    "image_main": "skin_basal_01.jpg"
+  }
+}

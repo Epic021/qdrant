@@ -1,0 +1,33 @@
+{
+  "id": "case_050",
+  "patient_id": "P_8463",
+  "timestamp": "2025-11-10T12:04:56.404124",
+  "demographics": {
+    "age": 25,
+    "gender": "Female",
+    "location": "Arcot_Clinic"
+  },
+  "clinical_data": {
+    "chief_complaint": "Sore that bleeds easily",
+    "history": "Slow growing over months. Bleeds when towel drying. Sun-exposed area.",
+    "lesion_details": {
+      "location": "Forehead",
+      "size_mm": 3.2,
+      "texture": "Central Ulcer",
+      "color": "Red",
+      "elevation": "Ulcer",
+      "borders": "Smooth",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Basal Cell Carcinoma",
+  "treatment_plan": [
+    "Mohs Micrographic Surgery",
+    "Excision",
+    "Topical Imiquimod"
+  ],
+  "outcome": "Urgent Referral",
+  "files": {
+    "image_main": "skin_basal_03.jpg"
+  }
+}

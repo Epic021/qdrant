@@ -1,0 +1,32 @@
+{
+  "id": "case_001",
+  "patient_id": "P_8821",
+  "timestamp": "2023-10-27T10:00:00",
+  "demographics": {
+    "age": 45,
+    "gender": "Male",
+    "location": "Vellore_Rural_Clinic"
+  },
+  "clinical_data": {
+    "chief_complaint": "Dark, irregular mole on back that is bleeding",
+    "history": "Lesion appeared 3 months ago. Slowly growing. History of sunburns.",
+    "lesion_details": {
+      "location": "Upper Back",
+      "size_mm": 8.5,
+      "texture": "Rough/Irregular",
+      "color": "Black/Brown",
+      "elevation": "Nodule",
+      "borders": "Irregular",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Melanoma",
+  "treatment_plan": [
+    "Urgent Excision Biopsy",
+    "Oncology Referral"
+  ],
+  "outcome": "Critical Referral",
+  "files": {
+    "image_main": "skin_melanoma_03.jpg"
+  }
+}

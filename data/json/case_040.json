@@ -1,0 +1,33 @@
+{
+  "id": "case_040",
+  "patient_id": "P_4974",
+  "timestamp": "2025-09-10T12:04:56.402090",
+  "demographics": {
+    "age": 41,
+    "gender": "Female",
+    "location": "Vellore_Rural"
+  },
+  "clinical_data": {
+    "chief_complaint": "Cracked skin that bleeds",
+    "history": "Chronic condition. Worse in winter. Joint pain noted (Psoriatic Arthritis).",
+    "lesion_details": {
+      "location": "Elbows",
+      "size_mm": 4.6,
+      "texture": "Thick Plaque",
+      "color": "Salmon Pink",
+      "elevation": "Plaque (Raised)",
+      "borders": "Well-defined",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Psoriasis",
+  "treatment_plan": [
+    "Vitamin D analogues",
+    "Phototherapy",
+    "Methotrexate"
+  ],
+  "outcome": "Routine",
+  "files": {
+    "image_main": "skin_psoriasis_05.jpg"
+  }
+}

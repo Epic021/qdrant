@@ -1,0 +1,33 @@
+{
+  "id": "case_013",
+  "patient_id": "P_1220",
+  "timestamp": "2025-09-23T12:04:56.395976",
+  "demographics": {
+    "age": 37,
+    "gender": "Female",
+    "location": "Ranipet_General"
+  },
+  "clinical_data": {
+    "chief_complaint": "Itchy plaques",
+    "history": "Chronic condition. Worse in winter. Joint pain noted (Psoriatic Arthritis).",
+    "lesion_details": {
+      "location": "Lower Back",
+      "size_mm": 12.0,
+      "texture": "Thick Plaque",
+      "color": "Silver/White",
+      "elevation": "Plaque (Raised)",
+      "borders": "Well-defined",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Psoriasis",
+  "treatment_plan": [
+    "Vitamin D analogues",
+    "Phototherapy",
+    "Methotrexate"
+  ],
+  "outcome": "Routine",
+  "files": {
+    "image_main": "skin_psoriasis_03.jpg"
+  }
+}

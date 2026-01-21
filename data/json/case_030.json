@@ -1,0 +1,33 @@
+{
+  "id": "case_030",
+  "patient_id": "P_2329",
+  "timestamp": "2025-12-22T12:04:56.398464",
+  "demographics": {
+    "age": 45,
+    "gender": "Male",
+    "location": "Vellore_Rural"
+  },
+  "clinical_data": {
+    "chief_complaint": "Mole that bleeds/oozes",
+    "history": "Lesion has changed shape rapidly. History of excessive sun exposure.",
+    "lesion_details": {
+      "location": "Back",
+      "size_mm": 11.2,
+      "texture": "Nodular",
+      "color": "Dark Brown",
+      "elevation": "Nodule",
+      "borders": "Asymmetric",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Melanoma",
+  "treatment_plan": [
+    "Wide Local Excision",
+    "Sentinal Node Biopsy",
+    "Immunotherapy"
+  ],
+  "outcome": "Critical Referral",
+  "files": {
+    "image_main": "skin_melanoma_02.jpg"
+  }
+}

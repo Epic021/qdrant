@@ -1,0 +1,33 @@
+{
+  "id": "case_015",
+  "patient_id": "P_8790",
+  "timestamp": "2025-12-04T12:04:56.396282",
+  "demographics": {
+    "age": 46,
+    "gender": "Male",
+    "location": "Ranipet_General"
+  },
+  "clinical_data": {
+    "chief_complaint": "Mole that bleeds/oozes",
+    "history": "Lesion has changed shape rapidly. History of excessive sun exposure.",
+    "lesion_details": {
+      "location": "Face",
+      "size_mm": 11.5,
+      "texture": "Nodular",
+      "color": "Variegated",
+      "elevation": "Nodule",
+      "borders": "Irregular",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Melanoma",
+  "treatment_plan": [
+    "Wide Local Excision",
+    "Sentinal Node Biopsy",
+    "Immunotherapy"
+  ],
+  "outcome": "Critical Referral",
+  "files": {
+    "image_main": "skin_melanoma_02.jpg"
+  }
+}

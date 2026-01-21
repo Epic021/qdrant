@@ -1,0 +1,33 @@
+{
+  "id": "case_034",
+  "patient_id": "P_4199",
+  "timestamp": "2026-01-04T12:04:56.400825",
+  "demographics": {
+    "age": 29,
+    "gender": "Male",
+    "location": "Arcot_Clinic"
+  },
+  "clinical_data": {
+    "chief_complaint": "Red rash that weeps fluid",
+    "history": "History of asthma/hay fever. Flares with stress or harsh soaps.",
+    "lesion_details": {
+      "location": "Neck",
+      "size_mm": 10.5,
+      "texture": "Scaly/Dry",
+      "color": "Red",
+      "elevation": "Plaque (Slightly Raised)",
+      "borders": "Ill-defined",
+      "bleeding": true
+    }
+  },
+  "diagnosis": "Eczema",
+  "treatment_plan": [
+    "Topical Steroids",
+    "Emollients",
+    "Antihistamines"
+  ],
+  "outcome": "Routine",
+  "files": {
+    "image_main": "skin_eczema_03.jpg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "case_027",
+  "patient_id": "P_4131",
+  "timestamp": "2025-04-13T12:04:56.397941",
+  "demographics": {
+    "age": 31,
+    "gender": "Male",
+    "location": "Ambur_Health_Post"
+  },
+  "clinical_data": {
+    "chief_complaint": "Intense itching",
+    "history": "History of asthma/hay fever. Flares with stress or harsh soaps.",
+    "lesion_details": {
+      "location": "Behind Knees",
+      "size_mm": 5.3,
+      "texture": "Lichenified (Thick)",
+      "color": "Pink",
+      "elevation": "Plaque (Slightly Raised)",
+      "borders": "Diffuse",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Eczema",
+  "treatment_plan": [
+    "Topical Steroids",
+    "Emollients",
+    "Antihistamines"
+  ],
+  "outcome": "Routine",
+  "files": {
+    "image_main": "skin_eczema_03.jpg"
+  }
+}

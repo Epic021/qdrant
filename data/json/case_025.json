@@ -1,0 +1,33 @@
+{
+  "id": "case_025",
+  "patient_id": "P_2229",
+  "timestamp": "2026-01-08T12:04:56.397709",
+  "demographics": {
+    "age": 67,
+    "gender": "Male",
+    "location": "Chittoor_Border_Unit"
+  },
+  "clinical_data": {
+    "chief_complaint": "Shiny pink patch",
+    "history": "Slow growing over months. Bleeds when towel drying. Sun-exposed area.",
+    "lesion_details": {
+      "location": "Ear",
+      "size_mm": 4.1,
+      "texture": "Rolled Borders",
+      "color": "Pink",
+      "elevation": "Ulcer",
+      "borders": "Rolled",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Basal Cell Carcinoma",
+  "treatment_plan": [
+    "Mohs Micrographic Surgery",
+    "Excision",
+    "Topical Imiquimod"
+  ],
+  "outcome": "Urgent Referral",
+  "files": {
+    "image_main": "skin_basal_02.jpg"
+  }
+}

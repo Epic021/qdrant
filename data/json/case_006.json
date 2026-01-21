@@ -1,0 +1,33 @@
+{
+  "id": "case_006",
+  "patient_id": "P_2183",
+  "timestamp": "2025-08-17T12:04:56.394844",
+  "demographics": {
+    "age": 45,
+    "gender": "Male",
+    "location": "Ambur_Health_Post"
+  },
+  "clinical_data": {
+    "chief_complaint": "Stuck-on brown patch",
+    "history": "Slowly appearing over years. 'Stuck on' appearance. Benign nature.",
+    "lesion_details": {
+      "location": "Back",
+      "size_mm": 13.8,
+      "texture": "Waxy",
+      "color": "Brown",
+      "elevation": "Papule",
+      "borders": "Well-defined",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Seborrheic Keratosis",
+  "treatment_plan": [
+    "Observation",
+    "Cryotherapy (if irritated)",
+    "Shave Excision"
+  ],
+  "outcome": "Benign/Routine",
+  "files": {
+    "image_main": "skin_seborrheic_05.jpg"
+  }
+}

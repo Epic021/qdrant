@@ -1,0 +1,33 @@
+{
+  "id": "case_041",
+  "patient_id": "P_3792",
+  "timestamp": "2025-07-16T12:04:56.402213",
+  "demographics": {
+    "age": 33,
+    "gender": "Female",
+    "location": "Ambur_Health_Post"
+  },
+  "clinical_data": {
+    "chief_complaint": "Changing mole",
+    "history": "Lesion has changed shape rapidly. History of excessive sun exposure.",
+    "lesion_details": {
+      "location": "Legs",
+      "size_mm": 11.3,
+      "texture": "Nodular",
+      "color": "Dark Brown",
+      "elevation": "Nodule",
+      "borders": "Notched",
+      "bleeding": false
+    }
+  },
+  "diagnosis": "Melanoma",
+  "treatment_plan": [
+    "Wide Local Excision",
+    "Sentinal Node Biopsy",
+    "Immunotherapy"
+  ],
+  "outcome": "Critical Referral",
+  "files": {
+    "image_main": "skin_melanoma_03.jpg"
+  }
+}

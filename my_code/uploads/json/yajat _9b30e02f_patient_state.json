@@ -1,0 +1,39 @@
+{
+  "event_id": "3bd16986-543b-4e82-bdaa-298c3c8edd4a",
+  "interaction_id": "9b30e02f-d091-47f1-a7a2-19a12b461041",
+  "patient_hash": "yajat ",
+  "patient_current_state": {
+    "patient_hash": "yajat ",
+    "total_visits": 1,
+    "first_visit": 1769105954,
+    "latest_visit": 1769105954,
+    "latest_event_id": "3bd16986-543b-4e82-bdaa-298c3c8edd4a",
+    "visit_history": [
+      {
+        "event_id": "3bd16986-543b-4e82-bdaa-298c3c8edd4a",
+        "interaction_id": "11a1d3e1-61b8-44ff-b192-9b10221b6e93",
+        "timestamp": 1769105954,
+        "summary": "A 4-year-old male child is brought by his mother with complaints of poor weight gain, frequent loose motions, and low appetite over the last two months. Immunization status is incomplete as per the mo",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [
+      "fever",
+      "cough"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T23:49:52.761391"
+}

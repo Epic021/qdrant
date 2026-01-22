@@ -1,0 +1,36 @@
+{
+  "event_id": "3bd16986-543b-4e82-bdaa-298c3c8edd4a",
+  "interaction_id": "9b30e02f-d091-47f1-a7a2-19a12b461041",
+  "patient_hash": "yajat ",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": [
+        "fever",
+        "cough"
+      ]
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T23:49:52.764926"
+}

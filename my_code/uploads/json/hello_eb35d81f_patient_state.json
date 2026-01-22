@@ -1,0 +1,36 @@
+{
+  "event_id": "07e62afd-9d10-4021-bfe6-ffb685c7e357",
+  "interaction_id": "eb35d81f-7d80-4995-9659-05bc2412ab61",
+  "patient_hash": "hello",
+  "patient_current_state": {
+    "patient_hash": "hello",
+    "total_visits": 1,
+    "first_visit": 1769101086,
+    "latest_visit": 1769101086,
+    "latest_event_id": "07e62afd-9d10-4021-bfe6-ffb685c7e357",
+    "visit_history": [
+      {
+        "event_id": "07e62afd-9d10-4021-bfe6-ffb685c7e357",
+        "interaction_id": "f18bdcac-40bc-461c-b886-967618c0f678",
+        "timestamp": 1769101086,
+        "summary": "Elderly female, 68 years, lives alone, hypertension, forgets follow-up appointments.",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 1
+    }
+  },
+  "created_at": "2026-01-22T22:28:23.486826"
+}

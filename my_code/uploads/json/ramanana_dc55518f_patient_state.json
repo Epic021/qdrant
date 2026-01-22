@@ -1,0 +1,36 @@
+{
+  "event_id": "ef29a96a-0a44-4b85-b85f-9ceab83868fb",
+  "interaction_id": "dc55518f-301d-476f-acb2-201e6ce30748",
+  "patient_hash": "ramanana",
+  "patient_current_state": {
+    "patient_hash": "ramanana",
+    "total_visits": 1,
+    "first_visit": 1769100719,
+    "latest_visit": 1769100719,
+    "latest_event_id": "ef29a96a-0a44-4b85-b85f-9ceab83868fb",
+    "visit_history": [
+      {
+        "event_id": "ef29a96a-0a44-4b85-b85f-9ceab83868fb",
+        "interaction_id": "d5de2d78-4184-4fde-9de7-f2dc57c0fe58",
+        "timestamp": 1769100719,
+        "summary": "Teenage girl, 16 years, irregular menstruation, suspected nutritional deficiency.",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T22:22:32.747110"
+}

@@ -1,0 +1,40 @@
+{
+  "event_id": "a24e5693-a544-400f-86ee-d3224f80b9fc",
+  "interaction_id": "6b471d30-eca4-4418-a148-7c881c2b3de9",
+  "patient_hash": "lavnika ",
+  "patient_current_state": {
+    "patient_hash": "lavnika ",
+    "total_visits": 1,
+    "first_visit": 1769104927,
+    "latest_visit": 1769104927,
+    "latest_event_id": "a24e5693-a544-400f-86ee-d3224f80b9fc",
+    "visit_history": [
+      {
+        "event_id": "a24e5693-a544-400f-86ee-d3224f80b9fc",
+        "interaction_id": "27b082ca-f88e-48af-a969-f2909cbe9a11",
+        "timestamp": 1769104927,
+        "summary": "A 32-year-old pregnant woman in her second trimester from a remote village reports lower back pain, frequent headaches, and feeling weak over the past month. She has attended only one antenatal check-",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": true,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain",
+      "pregnant",
+      "headache"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 1,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-22T23:32:46.552350"
+}

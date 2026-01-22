@@ -1,0 +1,33 @@
+{
+  "event_id": "5988b71c-dccb-4ac2-bc55-b4d376b71c75",
+  "interaction_id": "a6fd07fd-c39b-4951-82fd-5701a77e2f26",
+  "patient_hash": "jolly",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": []
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": true,
+      "use_audio": true,
+      "reason": "all_modalities_clear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T23:05:28.955161"
+}

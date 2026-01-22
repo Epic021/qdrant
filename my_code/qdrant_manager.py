@@ -277,6 +277,45 @@ class PatientMemoryQdrantClient:
             print(f"✗ Failed to get collection info: {e}")
             return {}
 
+    def search_similar(
+        self,
+        collection_name: str,
+        query_vector: tuple,
+        query_filter: Optional[Any] = None,
+        limit: int = 10,
+        with_payload: bool = True
+    ) -> List[Any]:
+        """
+        Search for similar vectors.
+        Wraps client.search to handle potential version differences.
+        """
+        try:
+            # Try standard search
+            if hasattr(self.client, "search"):
+                return self.client.search(
+                    collection_name=collection_name,
+                    query_vector=query_vector,
+                    query_filter=query_filter,
+                    limit=limit,
+                    with_payload=with_payload
+                )
+            # Try query_points (newer SDK)
+            elif hasattr(self.client, "query_points"):
+                return self.client.query_points(
+                    collection_name=collection_name,
+                    query=query_vector[1] if isinstance(query_vector, tuple) else query_vector,
+                    using=query_vector[0] if isinstance(query_vector, tuple) else None,
+                    filter=query_filter,
+                    limit=limit,
+                    with_payload=with_payload
+                ).points
+            else:
+                print("⚠ QdrantClient has no 'search' or 'query_points' method")
+                return []
+        except Exception as e:
+            print(f"✗ Search failed: {e}")
+            return []
+
 
 # ============================================================================
 # DEMO / TEST

@@ -391,6 +391,36 @@ class IngestionDatabase:
             
             return results
     
+    def get_patient_state_by_interaction(self, interaction_id: str) -> Optional[Dict[str, Any]]:
+        """Get patient state for a specific interaction"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM patient_states 
+                WHERE interaction_id = ? 
+                ORDER BY created_at DESC 
+                LIMIT 1
+            """, (interaction_id,))
+            
+            row = cursor.fetchone()
+            if row:
+                return {
+                    "id": row["id"],
+                    "interaction_id": row["interaction_id"],
+                    "patient_hash": row["patient_hash"],
+                    "event_id": row["event_id"],
+                    "total_visits": row["total_visits"],
+                    "first_visit": row["first_visit"],
+                    "latest_visit": row["latest_visit"],
+                    "patient_current_state": json.loads(row["patient_current_state_json"]),
+                    "created_at": row["created_at"]
+                }
+            return None
+    
+    # =========================================================================
+    # RETRIEVAL PLANS (for Context Builder Agent)
+    # =========================================================================
+    
     def store_retrieval_plan(
         self,
         interaction_id: str,
@@ -432,6 +462,34 @@ class IngestionDatabase:
             conn.commit()
             return cursor.lastrowid
     
+    def get_retrieval_plan(self, interaction_id: str) -> Optional[Dict[str, Any]]:
+        """Get retrieval plan for a specific interaction"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM retrieval_plans 
+                WHERE interaction_id = ? 
+                ORDER BY created_at DESC 
+                LIMIT 1
+            """, (interaction_id,))
+            
+            row = cursor.fetchone()
+            if row:
+                return {
+                    "id": row["id"],
+                    "interaction_id": row["interaction_id"],
+                    "patient_hash": row["patient_hash"],
+                    "event_id": row["event_id"],
+                    "retrieval_plan": json.loads(row["retrieval_plan_json"]),
+                    "risk_flags": json.loads(row["risk_flags"]),
+                    "created_at": row["created_at"]
+                }
+            return None
+    
+    # =========================================================================
+    # RETRIEVAL RESULTS (for Similar Case Retrieval Agent)
+    # =========================================================================
+    
     def store_retrieval_results(
         self,
         interaction_id: str,
@@ -472,6 +530,34 @@ class IngestionDatabase:
             conn.commit()
             return cursor.lastrowid
     
+    def get_retrieval_results(self, interaction_id: str) -> Optional[Dict[str, Any]]:
+        """Get retrieval results for a specific interaction"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM retrieval_results 
+                WHERE interaction_id = ? 
+                ORDER BY created_at DESC 
+                LIMIT 1
+            """, (interaction_id,))
+            
+            row = cursor.fetchone()
+            if row:
+                return {
+                    "id": row["id"],
+                    "interaction_id": row["interaction_id"],
+                    "patient_hash": row["patient_hash"],
+                    "event_id": row["event_id"],
+                    "retrieved_cases": json.loads(row["retrieved_cases_json"]),
+                    "retrieval_metadata": json.loads(row["retrieval_metadata_json"]),
+                    "created_at": row["created_at"]
+                }
+            return None
+    
+    # =========================================================================
+    # FINAL CASE OUTPUTS (for Explanation & Referral Agents)
+    # =========================================================================
+    
     def store_final_case_outputs(
         self,
         interaction_id: str,
@@ -511,6 +597,30 @@ class IngestionDatabase:
             
             conn.commit()
             return cursor.lastrowid
+    
+    def get_final_case_outputs(self, interaction_id: str) -> Optional[Dict[str, Any]]:
+        """Get final case outputs for a specific interaction"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM final_case_outputs 
+                WHERE interaction_id = ? 
+                ORDER BY created_at DESC 
+                LIMIT 1
+            """, (interaction_id,))
+            
+            row = cursor.fetchone()
+            if row:
+                return {
+                    "id": row["id"],
+                    "interaction_id": row["interaction_id"],
+                    "patient_hash": row["patient_hash"],
+                    "case_summary": json.loads(row["case_summary_json"]),
+                    "explanation_text": row["explanation_text"],
+                    "followup_output": json.loads(row["followup_output_json"]),
+                    "created_at": row["created_at"]
+                }
+            return None
     
     # =========================================================================
     # FILE STORAGE HELPERS

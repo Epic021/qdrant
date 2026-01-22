@@ -213,10 +213,11 @@ class ExplanationAndTrustAgent:
 STRICT RULES:
 - You MUST NOT give medical diagnoses
 - You MUST NOT give medical advice
-- You MUST cite uncertainty when data is limited
 - You MUST use counts, not percentages
-- You MUST say "data is limited" when applicable
 - Keep language simple and honest
+- NEVER use markdown formatting like ** or * for bold/italics - use plain text only
+- NEVER say "I can't see the image" or similar negative statements - just provide analysis based on available context
+- Be direct and helpful
 
 CASE SUMMARY:
 {json.dumps(case_summary, indent=2)}
@@ -227,17 +228,15 @@ SIMILAR CASES FOUND:
 Outcomes:
 {json.dumps(case_summary.get('outcome_pattern', {}), indent=2)}
 
-DATA QUALITY ISSUES:
-{json.dumps(case_summary.get('data_quality', {}), indent=2)}
-
 TASK:
 Write a 3-4 sentence explanation for a healthcare worker that:
 1. States what similar cases were found (with counts)
-2. Mentions any data quality limitations
+2. Briefly mentions key patterns
 3. Does NOT diagnose or advise
-4. Is honest about uncertainty
+4. Maintains a helpful, professional tone
+5. Uses PLAIN TEXT only - no markdown or special formatting
 
-Your explanation:"""
+Your explanation (plain text, no formatting):"""
 
         return prompt
     
@@ -259,13 +258,13 @@ Your explanation:"""
         if data_quality.get("text_sparse"):
             limitations.append("text information is sparse")
         
-        explanation = f"This suggestion is based on {num_cases} similar case(s) from the same area. "
+        explanation = f"Analysis identified {num_cases} similar verified cases from the same geography. "
+        explanation += "These cases provide historical context to support your clinical decision-making. "
         
         if limitations:
-            explanation += f"Note: {', '.join(limitations)}, which may affect confidence. "
+             explanation += f"Please note: {', '.join(limitations)}. "
         
-        explanation += "This is experience recall, not medical diagnosis. Clinical judgment remains essential."
-        
+        explanation += "Review the full case details below for specific outcomes."
         return explanation
 
 

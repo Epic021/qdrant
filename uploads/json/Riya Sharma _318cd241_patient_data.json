@@ -1,0 +1,22 @@
+{
+  "patient_hash": "Riya Sharma ",
+  "interaction_id": "318cd241-02e8-4d5b-a95f-3282698a9226",
+  "processed_text": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching disturbs sleep. She has gained weight recently and feels tired often. No prior skin treatment taken. Hygiene facilities are limited, and she works long hours outdoors.",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device_01",
+    "offline": false,
+    "timestamp": 1769109245
+  }
+}

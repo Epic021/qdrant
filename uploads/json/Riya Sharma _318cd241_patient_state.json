@@ -1,0 +1,92 @@
+{
+  "event_id": "879ed5a7-79a8-4da9-ae27-e5a6d925c9ab",
+  "interaction_id": "318cd241-02e8-4d5b-a95f-3282698a9226",
+  "patient_hash": "Riya Sharma ",
+  "patient_current_state": {
+    "patient_hash": "Riya Sharma ",
+    "total_visits": 5,
+    "first_visit": 1769108562,
+    "latest_visit": 1769109245,
+    "latest_event_id": "879ed5a7-79a8-4da9-ae27-e5a6d925c9ab",
+    "visit_history": [
+      {
+        "event_id": "70b39ca7-fd50-4cff-94db-d7464d7a9638",
+        "interaction_id": "43cd128f-58f7-447a-831b-c7ad31b0ac3f",
+        "timestamp": 1769108562,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": true,
+          "image_unclear": true,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "6b513f80-7dd4-4d7e-aa34-2bd1a01a89c2",
+        "interaction_id": "cd585a69-fe05-44e6-9b2f-5d211f9e61c9",
+        "timestamp": 1769108969,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "da02c96f-591d-4d10-922d-ff0e5b68702d",
+        "interaction_id": "76bda655-39c0-47ab-a076-78c3aaba0a94",
+        "timestamp": 1769109084,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "648d7a5e-8294-44af-a2a0-452be4cbd362",
+        "interaction_id": "bba69824-3416-41ac-8f2d-b5379ac08027",
+        "timestamp": 1769109146,
+        "summary": "A 61-year-old male daily wage worker reports persistent cough for more than three weeks, weight loss, and night sweats. He recently returned from working in a nearby city. He has not visited a health ",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      },
+      {
+        "event_id": "879ed5a7-79a8-4da9-ae27-e5a6d925c9ab",
+        "interaction_id": "ff0f30cd-50e1-46ed-91f9-1debd144c46a",
+        "timestamp": 1769109245,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [
+      "cough",
+      "pain",
+      "skin"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 1,
+      "image_unclear": 1,
+      "document_unclear": 0,
+      "history_partial": 2
+    }
+  },
+  "created_at": "2026-01-23T00:44:22.498704"
+}

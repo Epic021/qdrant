@@ -1,0 +1,22 @@
+{
+  "patient_hash": "hello",
+  "interaction_id": "eb35d81f-7d80-4995-9659-05bc2412ab61",
+  "processed_text": "Elderly female, 68 years, lives alone, hypertension, forgets follow-up appointments.",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": true
+  },
+  "capture_metadata": {
+    "device_id": "web_device_01",
+    "offline": false,
+    "timestamp": 1769101086
+  }
+}

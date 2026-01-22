@@ -1,0 +1,51 @@
+{
+  "event_id": "0cbc2973-9d86-422e-baf8-9f2b4a0aa46c",
+  "interaction_id": "6bca322c-3aee-49a9-9db5-ed0e79cfca2f",
+  "patient_hash": "patient_aman",
+  "patient_current_state": {
+    "patient_hash": "patient_aman",
+    "total_visits": 2,
+    "first_visit": 1769020660,
+    "latest_visit": 1769103408,
+    "latest_event_id": "0cbc2973-9d86-422e-baf8-9f2b4a0aa46c",
+    "visit_history": [
+      {
+        "event_id": "3ae7895c-650f-46ab-86ce-37d21db020eb",
+        "interaction_id": "bcca44d2-874b-448e-921f-177cc548f9bc",
+        "timestamp": 1769020660,
+        "summary": "heavy pain in lower abdomin",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "0cbc2973-9d86-422e-baf8-9f2b4a0aa46c",
+        "interaction_id": "8f406750-8990-404a-9b12-3a835d2a8cb5",
+        "timestamp": 1769103408,
+        "summary": "Chest CT on Day 1 revealed multiple, diffuse lung cysts.|chest ct lung cysts|ct|(B): Chest CT on Day 1 revealed multiple, diffuse lung cysts. chest ct lung cysts ct",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": true
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 0,
+      "image_unclear": 0,
+      "document_unclear": 0,
+      "history_partial": 1
+    }
+  },
+  "created_at": "2026-01-22T23:07:10.352971"
+}

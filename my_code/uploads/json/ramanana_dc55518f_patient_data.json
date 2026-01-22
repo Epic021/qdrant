@@ -1,0 +1,27 @@
+{
+  "patient_hash": "ramanana",
+  "interaction_id": "dc55518f-301d-476f-acb2-201e6ce30748",
+  "processed_text": "Teenage girl, 16 years, irregular menstruation, suspected nutritional deficiency.",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\my_code\\uploads\\images\\ramanana_dc55518f_PMC107839_1471-2296-3-6-5_undivided_1_1.jpg",
+      "score": 1.0
+    }
+  ],
+  "documents": [],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device_01",
+    "offline": false,
+    "timestamp": 1769100719
+  }
+}

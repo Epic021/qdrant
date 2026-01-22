@@ -1,0 +1,86 @@
+{
+  "event_id": "dc033fff-f995-42c4-a870-8cacf974caef",
+  "interaction_id": "e9982850-93dd-451c-922d-b4b2c17ea001",
+  "patient_hash": "Siya ",
+  "retrieved_cases": [
+    {
+      "case_id": "7e7fa2f6-f927-489d-b13d-4d3bed0fb19d",
+      "final_score": 0.19,
+      "outcome": "unknown",
+      "summary": "Patient Ravi, 28 saal male, Rampur village. Skin mein laal daayian, khujli bahut, 2 hafte se. Eczema jaise dikhta hai, photo li hai....",
+      "action_taken": "Patient Ravi, 28 saal male, Rampur village. Skin mein laal daayian, khujli bahut, 2 hafte se. Eczema jaise dikhta hai, photo li hai.",
+      "time_to_resolution_days": null,
+      "source_metadata": {
+        "village": null,
+        "program": null,
+        "timestamp": 1769009083
+      }
+    },
+    {
+      "case_id": "3a23247a-7b14-4ead-8f2d-a8801ea9c705",
+      "final_score": 0.17,
+      "outcome": "unknown",
+      "summary": "Shoulders par multiple waxy bumps hain, benign lagte hain. Cosmetic concern hai patient ko....",
+      "action_taken": "Shoulders par multiple waxy bumps hain, benign lagte hain. Cosmetic concern hai patient ko.",
+      "time_to_resolution_days": null,
+      "source_metadata": {
+        "village": null,
+        "program": null,
+        "timestamp": 1769009083
+      }
+    },
+    {
+      "case_id": "e374ec42-88e4-4721-b7ae-afaf07f78b3d",
+      "final_score": 0.17,
+      "outcome": "unknown",
+      "summary": "Kamar ke neeche salmon pink patches, silvery scale. Chronic condition hai patient ki....",
+      "action_taken": "Kamar ke neeche salmon pink patches, silvery scale. Chronic condition hai patient ki.",
+      "time_to_resolution_days": null,
+      "source_metadata": {
+        "village": null,
+        "program": null,
+        "timestamp": 1769009083
+      }
+    },
+    {
+      "case_id": "59bd1d96-05b1-482a-b31b-6f7ca9b3831f",
+      "final_score": 0.17,
+      "outcome": "unknown",
+      "summary": "Patient ko chehra par ek chamakdar pink bump hai, jo thik nahi ho raha. 3 mahine se hai, khoon nikalta hai kabhi kabhi....",
+      "action_taken": "Patient ko chehra par ek chamakdar pink bump hai, jo thik nahi ho raha. 3 mahine se hai, khoon nikalta hai kabhi kabhi.",
+      "time_to_resolution_days": null,
+      "source_metadata": {
+        "village": null,
+        "program": null,
+        "timestamp": 1769009083
+      }
+    },
+    {
+      "case_id": "e3fa3c07-f175-4578-acb7-13d53587ca64",
+      "final_score": 0.17,
+      "outcome": "unknown",
+      "summary": "Patient ko chehra par ek chamakdar pink bump hai, jo thik nahi ho raha. 3 mahine se hai, khoon nikalta hai kabhi kabhi....",
+      "action_taken": "Patient ko chehra par ek chamakdar pink bump hai, jo thik nahi ho raha. 3 mahine se hai, khoon nikalta hai kabhi kabhi.",
+      "time_to_resolution_days": null,
+      "source_metadata": {
+        "village": null,
+        "program": null,
+        "timestamp": 1769009083
+      }
+    }
+  ],
+  "retrieval_metadata": {
+    "dense_candidates": 0,
+    "sparse_candidates": 5,
+    "merged_candidates": 5,
+    "final_selected": 5,
+    "filters_applied": {
+      "exclude_ids": [
+        "dc033fff-f995-42c4-a870-8cacf974caef"
+      ],
+      "geography_scope": "same_block",
+      "verified": true
+    }
+  },
+  "created_at": "2026-01-22T23:25:02.077491"
+}

@@ -1,0 +1,28 @@
+{
+  "patient_hash": "Riya Sharma ",
+  "interaction_id": "96871938-8ba7-4a64-b945-5de8c8a9a141",
+  "processed_text": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching disturbs sleep. She has gained weight recently and feels tired often. No prior skin treatment taken. Hygiene facilities are limited, and she works long hours outdoors.",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\uploads\\documents\\Riya Sharma _96871938_discharge_summary_eczema.pdf",
+      "ocr_text": "AIIMS Regional Center\nDepartment of Dermatology\nDISCHARGE SUMMARY\nPatient Name:\nRamesh Yadav\nPatient ID:\nPT236521\nAge/Gender:\n59 / Male\nWard/Bed:\nDerma-5/C3\nDate of Admission:\n08-01-2026\nDate of Discharge:\n21-01-2026\nAttending Physician:\nDr. Raj Malhotra\nConsultant:\nDr. Raj Malhotra\nFINAL DIAGNOSIS\nPrimary: Atopic Dermatitis (Eczema) (L20.9)\nSecondary: Associated pruritus\nCLINICAL SUMMARY\nPatient presented with dry, scaly skin, intense itching. On examination, findings were consistent with Atopic\nDermatitis (Eczema). Investigations including clinical examination, patch testing confirmed the diagnosis.\nTREATMENT ADMINISTERED DURING HOSPITAL STAY\n1. Topical corticosteroids\n2. Moisturizers\n3. Antihistamines\nCONDITION AT DISCHARGE\nPatient is clinically stable with significant improvement in symptoms. No active complications at the time of\ndischarge.\nDISCHARGE MEDICATIONS\nMedication\nDosage\nDuration\nTab. Levocetirizine 5mg\nOnce daily\n2 weeks\nMoisturizers\nAs directed\n2 weeks\nMoisturizing lotion\nApply twice daily\nContinuous\nFOLLOW-UP INSTRUCTIONS\n• Follow-up appointment: 4-6 weeks from discharge date\n• Continue prescribed medications as directed\n• Maintain skin hygiene and avoid known irritants\n• Report immediately if symptoms worsen or new symptoms develop\nPrepared by:\nApproved by:\n_______________\n_______________\nDr. Raj Malhotra\nMedical Superintendent\nDate: 21-01-2026\nDate: 21-01-2026",
+      "ocr_confidence": 95.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device_01",
+    "offline": false,
+    "timestamp": 1769109084
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "interaction_id": "f086d536-4acf-4c9d-82ff-d08a3bbe7642",
+  "patient_hash": "Rayal ",
+  "case_summary": {
+    "patient_snapshot": {
+      "age": null,
+      "gender": null,
+      "pregnancy_status": "unknown",
+      "program": null
+    },
+    "key_signals": [
+      "First visit for this patient",
+      "Recurring concerns: pain, pregnant, headache"
+    ],
+    "data_quality": {
+      "image_unclear": true,
+      "audio_noisy": false,
+      "text_sparse": false,
+      "history_partial": false
+    },
+    "retrieval_summary": {
+      "similar_cases_found": 1,
+      "geography": "same_block",
+      "program_match": false,
+      "dense_candidates": 0,
+      "final_selected": 1
+    },
+    "outcome_pattern": {
+      "total_cases": 1,
+      "outcomes": {
+        "unknown": 1
+      }
+    }
+  },
+  "explanation": "We found 1 similar case for this patient. Key patterns include this being a first visit with recurring concerns such as pain, pregnancy, and headache. Data is limited, with an unclear image, and the outcome for the similar case is currently unknown.",
+  "followup_status": {
+    "followup_status": "up_to_date",
+    "days_since_last_visit": 0,
+    "nudges": [
+      "No immediate follow-up needed based on timeline"
+    ],
+    "escalation_flag": false
+  },
+  "created_at": "2026-01-22T23:42:20.098273"
+}

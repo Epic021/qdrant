@@ -1,0 +1,44 @@
+{
+  "interaction_id": "002e3b88-5879-447e-bd79-62dfe0b852ac",
+  "patient_hash": "abhinav ",
+  "case_summary": {
+    "patient_snapshot": {
+      "age": null,
+      "gender": null,
+      "pregnancy_status": "unknown",
+      "program": null
+    },
+    "key_signals": [
+      "First visit for this patient"
+    ],
+    "data_quality": {
+      "image_unclear": true,
+      "audio_noisy": false,
+      "text_sparse": false,
+      "history_partial": false
+    },
+    "retrieval_summary": {
+      "similar_cases_found": 3,
+      "geography": "same_block",
+      "program_match": false,
+      "dense_candidates": 3,
+      "final_selected": 3
+    },
+    "outcome_pattern": {
+      "total_cases": 3,
+      "outcomes": {
+        "unknown": 3
+      }
+    }
+  },
+  "explanation": "We found 3 similar cases from the same geographical area. Data is limited for this patient as it is their first visit, and the image for this case is unclear. Among the 3 similar cases identified, the outcomes were unknown for all 3. This means we have limited information about potential outcomes from these similar cases.",
+  "followup_status": {
+    "followup_status": "up_to_date",
+    "days_since_last_visit": 0,
+    "nudges": [
+      "No immediate follow-up needed based on timeline"
+    ],
+    "escalation_flag": false
+  },
+  "created_at": "2026-01-22T22:57:07.365944"
+}

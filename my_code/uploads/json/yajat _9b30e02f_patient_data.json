@@ -1,0 +1,33 @@
+{
+  "patient_hash": "yajat ",
+  "interaction_id": "9b30e02f-d091-47f1-a7a2-19a12b461041",
+  "processed_text": "A 4-year-old male child is brought by his mother with complaints of poor weight gain, frequent loose motions, and low appetite over the last two months. Immunization status is incomplete as per the mother, and the child often falls sick with cough and fever. Drinking water source is a hand pump, and sanitation facilities are limited. The child appears tired and less active compared to other children of the same age.",
+  "audio_transcript": null,
+  "audio_language": null,
+  "audio_confidence": null,
+  "image_quality": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\my_code\\uploads\\images\\yajat _9b30e02f_PMC101372_1471-2342-2-1-2_B_2_2.jpg",
+      "score": 1.0
+    }
+  ],
+  "documents": [
+    {
+      "path": "D:\\convolve\\Convolve-4.0-Submission-2Slow2Serious\\my_code\\uploads\\documents\\yajat _9b30e02f_lab_report_psoriasis.pdf",
+      "ocr_text": "City General Hospital\nDepartment of Dermatology & Pathology\nLABORATORY REPORT\nPatient Name:\nAmit Patel\nPatient ID:\nPT745312\nAge/Gender:\n54 / Male\nReport Date:\n21-01-2026\nReferring Doctor:\nDr. Raj Malhotra\nSample Date:\n16-01-2026\nDiagnosis:\nPsoriasis Vulgaris\nICD Code:\nL40.0\nCLINICAL IMAGE\nTESTS PERFORMED\n1. Clinical examination: Positive\n2. Skin biopsy: Consistent with diagnosis\n3. Blood tests for inflammation markers: Abnormal\nHISTOPATHOLOGY OBSERVATIONS\nClinical examination reveals characteristics consistent with Psoriasis Vulgaris.\nObserved Symptoms: Red patches with silvery scales, Dry, cracked skin, Itching and burning, Thickened\nnails\nCONCLUSION\nBased on clinical presentation and laboratory findings, the patient is diagnosed with Psoriasis Vulgaris\n(L40.0). Severity assessment: Moderate.\nPathologist's Signature\nReport generated on: 21-01-2026 17:23",
+      "ocr_confidence": 95.0
+    }
+  ],
+  "uncertainty_flags": {
+    "text_sparse": false,
+    "audio_noisy": false,
+    "image_unclear": false,
+    "document_unclear": false,
+    "history_partial": false
+  },
+  "capture_metadata": {
+    "device_id": "web_device_01",
+    "offline": false,
+    "timestamp": 1769105954
+  }
+}

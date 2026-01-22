@@ -29,6 +29,7 @@ from datetime import datetime
 # Import Qdrant client
 from qdrant_manager import PatientMemoryQdrantClient
 from embeddings import MultiModalEmbedder
+from qdrant_client.models import Filter, FieldCondition, MatchValue, Range, HasIdCondition, Condition
 
 
 # ============================================================================
@@ -59,7 +60,7 @@ class SimilarCaseRetrievalAgent:
     # Search parameters
     TOP_K_DENSE = 50
     TOP_K_SPARSE = 50
-    TOP_K_FINAL = 3  # Final results to return
+    TOP_K_FINAL = 5  # Final results to return
     
     # Re-ranking weights
     DENSE_WEIGHT = 0.6
@@ -123,7 +124,7 @@ class SimilarCaseRetrievalAgent:
         
         # ===== STEP 1: Build Payload Filters =====
         self._log("--- Step 1: Building Payload Filters ---")
-        filters = self._build_payload_filters(retrieval_plan)
+        filters = self._build_payload_filters(retrieval_plan, event_id)
         self._log(f"✓ Filters constructed: {json.dumps(filters, indent=2)}")
         
         # ===== STEP 2: Get Patient Embedding =====
@@ -195,16 +196,21 @@ class SimilarCaseRetrievalAgent:
             "retrieval_metadata": retrieval_metadata
         }
     
-    def _build_payload_filters(self, retrieval_plan: Dict[str, Any]) -> Dict[str, Any]:
+    def _build_payload_filters(self, retrieval_plan: Dict[str, Any], current_event_id: str = None) -> Dict[str, Any]:
         """
         Build Qdrant payload filters from retrieval plan.
         
         Filters are safety-critical and must be applied.
+        Includes self-exclusion.
         """
         constraints = retrieval_plan.get("retrieval_constraints", {})
         required_filters = constraints.get("required_filters", {})
         
         filters = {}
+        
+        # Self-exclusion (don't retrieve current case)
+        if current_event_id:
+            filters["exclude_ids"] = [current_event_id]
         
         # Program filter
         if required_filters.get("program"):
@@ -227,6 +233,41 @@ class SimilarCaseRetrievalAgent:
         filters["verified"] = True
         
         return filters
+
+    def _build_qdrant_filter(self, filters: Dict[str, Any]) -> Filter:
+        """Convert dict filters to Qdrant Filter object"""
+        conditions = []
+        must_not_conditions = []
+        
+        # Self exclusion
+        if filters.get("exclude_ids"):
+            must_not_conditions.append(HasIdCondition(has_id=filters["exclude_ids"]))
+        
+        # Program
+        if filters.get("program"):
+            conditions.append(FieldCondition(
+                key="program",
+                match=MatchValue(value=filters["program"])
+            ))
+            
+        # Pregnancy
+        if filters.get("pregnancy_status"):
+            conditions.append(FieldCondition(
+                key="pregnancy_status",
+                match=MatchValue(value=filters["pregnancy_status"])
+            ))
+            
+        # Verified
+        if filters.get("verified"):
+            conditions.append(FieldCondition(
+                key="verified",
+                match=MatchValue(value=True)
+            ))
+            
+        return Filter(
+            must=conditions if conditions else None,
+            must_not=must_not_conditions if must_not_conditions else None
+        )
     
     def _get_patient_embedding(
         self, 
@@ -275,11 +316,15 @@ class SimilarCaseRetrievalAgent:
         This searches all patient events to find similar cases.
         """
         try:
-            # Perform vector search using .search() method
+            # Build Qdrant Filter
+            query_filter = self._build_qdrant_filter(filters)
+            
+            # Perform vector search using wrapper
             # For named vectors, use tuple format: ("vector_name", vector)
-            search_results = self.qdrant_client.client.search(
+            search_results = self.qdrant_client.search_similar(
                 collection_name="patient_context_events_v1",
                 query_vector=("text_event", query_vector),  # Named vector tuple
+                query_filter=query_filter,
                 limit=self.TOP_K_DENSE,
                 with_payload=True
             )
@@ -476,6 +521,7 @@ class SimilarCaseRetrievalAgent:
                 "case_id": result["case_id"],
                 "final_score": round(result["final_score"], 4),
                 "outcome": payload.get("outcome", "unknown"),
+                "summary": payload.get("summary") or payload.get("processed_text", "")[:200] + "...",
                 "action_taken": payload.get("processed_text", "")[:200],  # First 200 chars
                 "time_to_resolution_days": payload.get("time_to_resolution_days"),
                 "source_metadata": {

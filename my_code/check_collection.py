@@ -1,7 +1,7 @@
 """
 Quick script to check what's in the Qdrant collection
 """
-from my_code.qdrant_client import PatientMemoryQdrantClient
+from qdrant_client import PatientMemoryQdrantClient
 
 client = PatientMemoryQdrantClient()
 

@@ -1,0 +1,65 @@
+{
+  "event_id": "da02c96f-591d-4d10-922d-ff0e5b68702d",
+  "interaction_id": "96871938-8ba7-4a64-b945-5de8c8a9a141",
+  "patient_hash": "Riya Sharma ",
+  "patient_current_state": {
+    "patient_hash": "Riya Sharma ",
+    "total_visits": 3,
+    "first_visit": 1769108562,
+    "latest_visit": 1769109084,
+    "latest_event_id": "da02c96f-591d-4d10-922d-ff0e5b68702d",
+    "visit_history": [
+      {
+        "event_id": "70b39ca7-fd50-4cff-94db-d7464d7a9638",
+        "interaction_id": "43cd128f-58f7-447a-831b-c7ad31b0ac3f",
+        "timestamp": 1769108562,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": true,
+          "image_unclear": true,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "6b513f80-7dd4-4d7e-aa34-2bd1a01a89c2",
+        "interaction_id": "cd585a69-fe05-44e6-9b2f-5d211f9e61c9",
+        "timestamp": 1769108969,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      },
+      {
+        "event_id": "da02c96f-591d-4d10-922d-ff0e5b68702d",
+        "interaction_id": "76bda655-39c0-47ab-a076-78c3aaba0a94",
+        "timestamp": 1769109084,
+        "summary": "A 29-year-old female reports persistent itching and dark patches on her neck and underarms for the past two months. She notices thickened skin that worsens with sweating. No major pain, but itching di",
+        "uncertainty": {
+          "text_sparse": false,
+          "audio_noisy": false,
+          "image_unclear": false,
+          "document_unclear": false,
+          "history_partial": false
+        }
+      }
+    ],
+    "recurring_themes": [
+      "pain",
+      "skin"
+    ],
+    "uncertainty_summary": {
+      "text_sparse": 0,
+      "audio_noisy": 1,
+      "image_unclear": 1,
+      "document_unclear": 0,
+      "history_partial": 0
+    }
+  },
+  "created_at": "2026-01-23T00:41:40.525503"
+}

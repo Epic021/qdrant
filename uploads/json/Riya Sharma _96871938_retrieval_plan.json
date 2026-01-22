@@ -1,0 +1,36 @@
+{
+  "event_id": "da02c96f-591d-4d10-922d-ff0e5b68702d",
+  "interaction_id": "96871938-8ba7-4a64-b945-5de8c8a9a141",
+  "patient_hash": "Riya Sharma ",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": [
+        "pain",
+        "skin"
+      ]
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": false,
+      "use_audio": false,
+      "reason": "image_unclear, audio_noisy"
+    },
+    "risk_flags": [
+      "low_data_quality"
+    ]
+  },
+  "created_at": "2026-01-23T00:41:40.529012"
+}

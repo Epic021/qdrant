@@ -1,0 +1,33 @@
+{
+  "event_id": "8f9afb82-e624-47a0-8407-99a6d051485a",
+  "interaction_id": "002e3b88-5879-447e-bd79-62dfe0b852ac",
+  "patient_hash": "abhinav ",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": []
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": false,
+      "use_audio": true,
+      "reason": "image_unclear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T22:57:07.356888"
+}

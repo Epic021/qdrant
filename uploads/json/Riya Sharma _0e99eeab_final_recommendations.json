@@ -1,0 +1,45 @@
+{
+  "interaction_id": "0e99eeab-f74b-4898-a66e-ad3f8e1543c2",
+  "patient_hash": "Riya Sharma ",
+  "case_summary": {
+    "patient_snapshot": {
+      "age": null,
+      "gender": null,
+      "pregnancy_status": "unknown",
+      "program": null
+    },
+    "key_signals": [
+      "Patient has 2 recorded visit(s)",
+      "Recurring concerns: pain, skin"
+    ],
+    "data_quality": {
+      "image_unclear": true,
+      "audio_noisy": true,
+      "text_sparse": false,
+      "history_partial": false
+    },
+    "retrieval_summary": {
+      "similar_cases_found": 4,
+      "geography": "same_block",
+      "program_match": false,
+      "dense_candidates": 0,
+      "final_selected": 4
+    },
+    "outcome_pattern": {
+      "total_cases": 4,
+      "outcomes": {
+        "unknown": 4
+      }
+    }
+  },
+  "explanation": "Our system identified 4 similar cases for your review. This patient has 2 recorded visits with recurring concerns noted as pain and skin issues. However, data is limited for the similar cases, as all 4 have unknown outcomes. Additionally, the current patient's record has data quality issues including unclear images and noisy audio.",
+  "followup_status": {
+    "followup_status": "up_to_date",
+    "days_since_last_visit": 0,
+    "nudges": [
+      "No immediate follow-up needed based on timeline"
+    ],
+    "escalation_flag": false
+  },
+  "created_at": "2026-01-23T00:39:56.191393"
+}

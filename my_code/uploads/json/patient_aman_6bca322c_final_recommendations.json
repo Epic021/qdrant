@@ -1,0 +1,45 @@
+{
+  "interaction_id": "6bca322c-3aee-49a9-9db5-ed0e79cfca2f",
+  "patient_hash": "patient_aman",
+  "case_summary": {
+    "patient_snapshot": {
+      "age": null,
+      "gender": null,
+      "pregnancy_status": "unknown",
+      "program": null
+    },
+    "key_signals": [
+      "Patient has 2 recorded visit(s)",
+      "Recurring concerns: pain"
+    ],
+    "data_quality": {
+      "image_unclear": false,
+      "audio_noisy": false,
+      "text_sparse": false,
+      "history_partial": true
+    },
+    "retrieval_summary": {
+      "similar_cases_found": 3,
+      "geography": "same_block",
+      "program_match": false,
+      "dense_candidates": 50,
+      "final_selected": 3
+    },
+    "outcome_pattern": {
+      "total_cases": 3,
+      "outcomes": {
+        "unknown": 3
+      }
+    }
+  },
+  "explanation": "We identified 3 similar cases for this patient, who has 2 recorded visits and recurring concerns about pain. Data is limited as the patient's history is partial. For all 3 similar cases found, the outcomes are unknown, so we cannot determine any outcome patterns.",
+  "followup_status": {
+    "followup_status": "up_to_date",
+    "days_since_last_visit": 0,
+    "nudges": [
+      "Incomplete records - consider verifying patient history"
+    ],
+    "escalation_flag": false
+  },
+  "created_at": "2026-01-22T23:07:10.365030"
+}

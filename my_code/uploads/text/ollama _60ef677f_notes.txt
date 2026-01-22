@@ -1,0 +1,10 @@
+Patient name: Sita Devi
+Age: 52 years
+Village: Kalyanpur
+Complaint: Feeling tired, dizziness sometimes
+Known issues: Sugar since 5 years, BP sometimes high
+Medicines: Taking tablets but often forgets when working
+Last visit: About 3 months back
+Diet: Mostly rice and salt, very less vegetables
+Family: Husband daily wage worker
+Notes: Foot swelling noticed, wound on toe not healing properly

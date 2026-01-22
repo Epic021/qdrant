@@ -1,0 +1,37 @@
+{
+  "event_id": "a24e5693-a544-400f-86ee-d3224f80b9fc",
+  "interaction_id": "6b471d30-eca4-4418-a148-7c881c2b3de9",
+  "patient_hash": "lavnika ",
+  "retrieval_plan": {
+    "current_state_summary": {
+      "age_group": "unknown",
+      "pregnancy_status": "none",
+      "program": null,
+      "key_trends": [
+        "pain",
+        "pregnant",
+        "headache"
+      ]
+    },
+    "retrieval_constraints": {
+      "required_filters": {
+        "pregnancy_required": false,
+        "age_range": {
+          "gte": null,
+          "lte": null
+        }
+      },
+      "geography_scope": "same_block"
+    },
+    "modality_policy": {
+      "use_text": true,
+      "use_image": false,
+      "use_audio": true,
+      "reason": "image_unclear"
+    },
+    "risk_flags": [
+      "single_visit_only"
+    ]
+  },
+  "created_at": "2026-01-22T23:32:46.555953"
+}

@@ -320,7 +320,6 @@ This loads synthetic patient cases into Qdrant for testing.
 
 ## Running the System
 
-### Option 1: Full FastAPI Backend
 Start the complete system with web interface:
 
 ```bash
@@ -329,34 +328,6 @@ python api.py
 ```
 
 Open http://localhost:8000 in your browser.
-
-### Option 2: Run 3-Agent Pipeline (Demo)
-Test the first 3 agents (Ingestion + Memory + Context Builder):
-
-```bash
-cd my_code
-python three_agent_pipeline.py
-```
-
-### Option 3: Run Individual Agents
-For development and testing:
-
-```python
-from my_code.agents import field_ingestion_agent
-from my_code.patient_memory_agent import patient_memory_agent
-
-# Agent 1
-state = {
-    "patient_hash": "demo_patient",
-    "raw_text": "Patient has skin rash on arms. Itching reported."
-}
-result = field_ingestion_agent(state)
-
-# Agent 2
-result_2 = patient_memory_agent({"patient_data": result["patient_data"]})
-```
-
----
 
 ## Project Structure
 
@@ -376,17 +347,11 @@ Convolve-4.0-Submission-2Slow2Serious/
 │   ├── langgraph_integration.py      # LangGraph integration
 │   ├── requirements.txt              # Python dependencies
 │   └── static/                       # Frontend assets
-├── data/                             # Patient data and synthetic cases
-│   ├── patient_data/                 # 25 synthetic patient JSON files
-│   ├── text/                         # Text data
-│   ├── images/                       # Image data
-│   └── generate_data.py             # Synthetic data generator
 ├── uploads/                          # User-uploaded files (created at runtime)
 ├── artifacts/                        # Generated artifacts
 ├── app.py                            # Legacy Streamlit demo (deprecated)
 ├── ingestion.db                      # SQLite database (created at runtime)
 ├── requirements.txt                  # Top-level dependencies
-├── .env                              # Environment variables (create this)
 ├── .gitignore                        # Git ignore rules
 └── README.md                         # This file
 ```
@@ -403,7 +368,7 @@ Convolve-4.0-Submission-2Slow2Serious/
 ### AI & Machine Learning
 - **Sentence Transformers** - Text embeddings (all-MiniLM-L6-v2)
 - **CLIP** - Image embeddings (ViT-B/32)
-- **Whisper** - Audio transcription (OpenAI)
+- **Whisper** - Audio transcription 
 - **Google Gemini** - LLM for explanations
 - **PyTorch** - Deep learning framework
 

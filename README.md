@@ -2,7 +2,7 @@
 
 An advanced **multi-agent AI system** designed to help healthcare workers in rural settings by processing multimodal patient data, maintaining longitudinal patient memory, and retrieving similar historical cases to support clinical decision-making.
 
-## 🚀 Overview
+## Overview
 
 This system combines **6 specialized AI agents** in a LangGraph pipeline to:
 - **Ingest multimodal patient data** (text, audio, images, documents)
@@ -16,7 +16,7 @@ The system is designed for **offline-capable**, **deterministic**, and **inspect
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 ```mermaid
 graph TB
@@ -50,17 +50,17 @@ graph TB
 
 ---
 
-## 🤖 Agent Components
+## Agent Components
 
 ### Agent 1: Field Ingestion Agent
 **Purpose**: Process and validate multimodal patient data
 
 **Capabilities**:
-- ✅ **Text processing**: Normalize clinical notes, detect sparse input
-- ✅ **Audio transcription**: Whisper-based transcription with language detection
-- ✅ **Image quality assessment**: Blur detection, resolution checks
-- ✅ **Document OCR**: Tesseract-based text extraction with confidence scoring
-- ✅ **Uncertainty tagging**: Flag low-quality or incomplete data
+- **Text processing**: Normalize clinical notes, detect sparse input
+- **Audio transcription**: Whisper-based transcription with language detection
+- **Image quality assessment**: Blur detection, resolution checks
+- **Document OCR**: Tesseract-based text extraction with confidence scoring
+- **Uncertainty tagging**: Flag low-quality or incomplete data
 
 **Output**: Canonical `patient_data` JSON with quality metadata
 
@@ -72,10 +72,10 @@ graph TB
 **Purpose**: Store patient events in vector database and generate current state summaries
 
 **Capabilities**:
-- ✅ **Multimodal embedding generation**: Text (Sentence-BERT), images (CLIP), audio (CLAP)
-- ✅ **Qdrant integration**: Write events to `patient_context_events_v1` collection
-- ✅ **Patient history retrieval**: Fetch all events for a patient
-- ✅ **Current state summarization**: Aggregate visits, uncertainty flags, recurring themes
+- **Multimodal embedding generation**: Text (Sentence-BERT), images (CLIP), audio (CLAP)
+- **Qdrant integration**: Write events to `patient_context_events_v1` collection
+- **Patient history retrieval**: Fetch all events for a patient
+- **Current state summarization**: Aggregate visits, uncertainty flags, recurring themes
 
 **Output**: `patient_current_state` with longitudinal summary
 
@@ -87,10 +87,10 @@ graph TB
 **Purpose**: Build retrieval plan with safety constraints
 
 **Capabilities**:
-- ✅ **Signal extraction**: Deterministic extraction of program type, pregnancy status, age, geography
-- ✅ **Constraint building**: Safety-critical filters for retrieval (no cross-program leakage)
-- ✅ **Modality policy**: Disable unreliable modalities based on uncertainty flags
-- ✅ **Risk flagging**: Identify data quality issues
+- **Signal extraction**: Deterministic extraction of program type, pregnancy status, age, geography
+- **Constraint building**: Safety-critical filters for retrieval (no cross-program leakage)
+- **Modality policy**: Disable unreliable modalities based on uncertainty flags
+- **Risk flagging**: Identify data quality issues
 
 **Output**: `retrieval_plan` with hard constraints and soft signals
 
@@ -102,11 +102,11 @@ graph TB
 **Purpose**: Retrieve similar historical cases using hybrid search
 
 **Capabilities**:
-- ✅ **Dense vector search**: Semantic similarity using patient embeddings
-- ✅ **Sparse keyword search**: Fallback keyword matching
-- ✅ **Hybrid merging**: Combine and re-rank results
-- ✅ **Safety filtering**: Apply payload filters (program, pregnancy, age, geography)
-- ✅ **Deterministic scoring**: Weighted scoring with transparency
+- **Dense vector search**: Semantic similarity using patient embeddings
+- **Sparse keyword search**: Fallback keyword matching
+- **Hybrid merging**: Combine and re-rank results
+- **Safety filtering**: Apply payload filters (program, pregnancy, age, geography)
+- **Deterministic scoring**: Weighted scoring with transparency
 
 **Output**: `retrieved_cases` with similarity scores and metadata
 
@@ -118,9 +118,9 @@ graph TB
 **Purpose**: Generate human-readable explanations using LLM (Gemini)
 
 **Capabilities**:
-- ✅ **Constrained LLM prompting**: No diagnosis, no medical advice, cite uncertainty
-- ✅ **Evidence-based explanations**: Show counts of similar cases and confidence levels
-- ✅ **Fallback logic**: Basic template-based explanation if LLM fails
+- **Constrained LLM prompting**: No diagnosis, no medical advice, cite uncertainty
+- **Evidence-based explanations**: Show counts of similar cases and confidence levels
+- **Fallback logic**: Basic template-based explanation if LLM fails
 
 **Output**: `explanation_text` with safety-compliant narrative
 
@@ -132,10 +132,10 @@ graph TB
 **Purpose**: Detect care gaps and generate follow-up nudges
 
 **Capabilities**:
-- ✅ **Follow-up gap detection**: Identify overdue visits (>14 days)
-- ✅ **High-risk flagging**: Urgent cases (>7 days for high-risk patients)
-- ✅ **Nudge generation**: Actionable recommendations for care teams
-- ✅ **Deterministic logic**: No LLM, pure code-based rules
+- **Follow-up gap detection**: Identify overdue visits (>14 days)
+- **High-risk flagging**: Urgent cases (>7 days for high-risk patients)
+- **Nudge generation**: Actionable recommendations for care teams
+- **Deterministic logic**: No LLM, pure code-based rules
 
 **Output**: `followup_output` with status and nudges
 
@@ -318,7 +318,7 @@ This loads synthetic patient cases into Qdrant for testing.
 
 ---
 
-## 🚀 Running the System
+## Running the System
 
 ### Option 1: Full FastAPI Backend
 Start the complete system with web interface:
@@ -358,7 +358,7 @@ result_2 = patient_memory_agent({"patient_data": result["patient_data"]})
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Convolve-4.0-Submission-2Slow2Serious/
@@ -393,7 +393,7 @@ Convolve-4.0-Submission-2Slow2Serious/
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### Core Framework
 - **FastAPI** - RESTful API backend
@@ -421,7 +421,7 @@ Convolve-4.0-Submission-2Slow2Serious/
 
 ---
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Example 1: Process Patient Data via API
 
@@ -462,7 +462,7 @@ for event in history:
 
 ---
 
-## 🔐 Security & Privacy
+## Security & Privacy
 
 - **Patient anonymization**: All patient identifiers are hashed
 - **Offline capability**: System works without internet (except for LLM calls)
@@ -471,7 +471,7 @@ for event in history:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the health check:
 ```bash
@@ -483,23 +483,3 @@ Test with sample data:
 cd my_code
 python three_agent_pipeline.py
 ```
-
----
-
-## 📝 License
-
-See [LICENSE](file:///d:/convolve/Convolve-4.0-Submission-2Slow2Serious/LICENSE) file for details.
-
----
-
-## 🤝 Contributing
-
-This is a healthcare AI research project. For questions or contributions, please contact the development team.
-
----
-
-## 🙏 Acknowledgments
-
-Built for **Convolve 4.0 Hackathon** by **Team 2Slow2Serious**.
-
-Designed for rural healthcare workers to leverage AI-powered collective memory for better patient care.

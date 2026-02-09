@@ -41,9 +41,6 @@ For a detailed workflow breakdown, see [workflow_description.txt](./workflow_des
 ### 1. Backend Setup
 
 ```bash
-# Navigate to the root directory
-cd my_new_code
-
 # Create a virtual environment
 python -m venv venv
 
@@ -67,7 +64,6 @@ QDRANT_API_KEY=your_qdrant_key
 ### 2. Frontend Setup
 
 ```bash
-cd my_code
 python check_db.py
 ```
 
@@ -89,7 +85,6 @@ This loads synthetic patient cases into Qdrant for testing.
 Start the complete system with web interface:
 
 ```bash
-# From my_new_code directory
 uvicorn backend.app.main:app --reload --port 8000
 ```
 The API will be available at `http://localhost:8000`.
@@ -99,7 +94,6 @@ API Documentation: `http://localhost:8000/docs`.
 Test the first 3 agents (Ingestion + Memory + Context Builder):
 
 ```bash
-cd my_code
 python three_agent_pipeline.py
 ```
 
@@ -107,8 +101,8 @@ python three_agent_pipeline.py
 For development and testing:
 
 ```python
-from my_code.agents import field_ingestion_agent
-from my_code.patient_memory_agent import patient_memory_agent
+from agents import field_ingestion_agent
+from patient_memory_agent import patient_memory_agent
 
 # Agent 1
 state = {
@@ -120,43 +114,6 @@ result = field_ingestion_agent(state)
 # Agent 2
 result_2 = patient_memory_agent({"patient_data": result["patient_data"]})
 ```
-
----
-
-## 📂 Project Structure
-
-```
-Convolve-4.0-Submission-2Slow2Serious/
-├── my_code/                          # Core agent implementations
-│   ├── agents.py                     # Agent 1: Field Ingestion
-│   ├── patient_memory_agent.py       # Agent 2: Patient Memory
-│   ├── context_builder_agent.py      # Agent 3: Context Builder
-│   ├── similar_case_retrieval_agent.py  # Agent 4: Similar Case Retrieval
-│   ├── explanation_and_referral_agents.py  # Agents 5 & 6
-│   ├── db.py                         # SQLite database layer
-│   ├── qdrant_manager.py             # Qdrant client wrapper
-│   ├── embeddings.py                 # Multimodal embedding generation
-│   ├── api.py                        # FastAPI backend
-│   ├── three_agent_pipeline.py       # 3-agent demo pipeline
-│   ├── langgraph_integration.py      # LangGraph integration
-│   ├── requirements.txt              # Python dependencies
-│   └── static/                       # Frontend assets
-├── data/                             # Patient data and synthetic cases
-│   ├── patient_data/                 # 25 synthetic patient JSON files
-│   ├── text/                         # Text data
-│   ├── images/                       # Image data
-│   └── generate_data.py             # Synthetic data generator
-├── uploads/                          # User-uploaded files (created at runtime)
-├── artifacts/                        # Generated artifacts
-├── app.py                            # Legacy Streamlit demo (deprecated)
-├── ingestion.db                      # SQLite database (created at runtime)
-├── requirements.txt                  # Top-level dependencies
-├── .env                              # Environment variables (create this)
-├── .gitignore                        # Git ignore rules
-└── README.md                         # This file
-```
-
----
 
 ## 💻 Technology Stack
 
